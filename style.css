@@ -17,6 +17,7 @@ header, footer{
 }
 /* footer dimensions to contain h3 and contact info */
 footer{
+  height: 50px;
   font-size: 18px;
   padding-bottom: 30px;
   padding-top: 10px;
