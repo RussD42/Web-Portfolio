@@ -1,0 +1,67 @@
+
+/*body declarations to cover screen with light blue background */
+body{
+  margin: 0px;
+  background-color: rgb(90, 191, 231);
+}
+/* header demensions to accomodate h1 and p */
+header {
+  height: 100px;
+  padding-top: 22px;
+  font-size: 22px;
+}
+/* header and footer elements sharing same declarations */
+header, footer{
+  background-color: rgb(42, 42, 142);
+  line-height: 18px;
+}
+/* footer dimensions to contain h3 and contact info */
+footer{
+  height: 50px;
+  font-size: 18px;
+  padding-bottom: 50px;
+  padding-top: 3px;
+  list-style-position: inside;
+}
+/* font size and line spacing setting for main container */
+main{
+  font-size: 20px;
+  line-height: 18px;
+}
+/* multiple elements sharing the same declarations */
+h1, h2, h3, p, ul, ol{
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  text-align: center;
+}
+/* gave a little extra spacing on the ul since it contained a lot more content so this made it easier on the eyes */
+ul{
+  line-height: 33px;
+}
+/* psuedo-class links for contact info*/
+a:link    { color: white;  }
+a:visited { color: whitesmoke;   }
+a:hover   { color: yellow; }
+a:active  { color: grey;  }
+
+/* image with rounded corners and margin setting to keep it slightly below the header and centered */
+img {
+  border-radius: 5%;
+  display: block;
+  width: 300px; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+/* styled hr to be a white circle */
+hr{
+  height: 15px;
+  background-color: white;
+  width: 15px;
+  border-radius: 50%;
+}
+
+
+
+
+
