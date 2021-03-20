@@ -30,9 +30,10 @@ main{
 }
 /* multiple elements sharing the same declarations */
 h1, h2, h3, p, ul, ol{
-  font-family: 'Courier New', Courier, monospace;
+  font-family:  Verdana, Geneva, Tahoma, sans-serif;
   color: white;
   text-align: center;
+  font-weight: bolder;
 }
 /* gave a little extra spacing on the ul since it contained a lot more content so this made it easier on the eyes */
 ul{
