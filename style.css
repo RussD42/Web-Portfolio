@@ -6,7 +6,7 @@ body{
 }
 /* header demensions to accomodate h1 and p */
 header {
-  height: 100px;
+  height: 120px;
   padding-top: 22px;
   font-size: 22px;
 }
