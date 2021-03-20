@@ -38,6 +38,8 @@ h1, h2, h3, p, ul, ol{
 /* gave a little extra spacing on the ul since it contained a lot more content so this made it easier on the eyes */
 ul{
   line-height: 33px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 /* psuedo-class links for contact info*/
 a:link    { color: white;  }
@@ -61,6 +63,7 @@ hr{
   width: 15px;
   border-radius: 50%;
 }
+
 
 
 
